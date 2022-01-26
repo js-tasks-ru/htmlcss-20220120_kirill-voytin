@@ -1,4 +1,95 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <!-- Ваше решение -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Семантическая разметка страницы</title>
+</head>
+<body>
+    <header>
+        <H1 align="center"><b>Header</b></H1>
+        <nav>
+            <ul class="navbar">
+            <li><H1><u>Navigation 1</u></H1></li>
+            <li><H1><u>Navigation 2</u></H1></li>
+            <li><h1><u>Navigation 3</u></H1></li>
+            </ul>
+        </nav>
+    </header>
+        
+     <Main>   
+
+        <article>
+            <h2><b>Article 1</b></h2>
+            <p></p>
+            <ul class="article1">
+                <li>Оригинальная трилогия</li>
+                <li>Трилогия приквелов</li>
+                <li>Трилогия сиквелов</li>
+            </ul>
+        </article>
+        <article>
+            <h2><b>Article 2</b></h2>
+            <ol class="article2">
+                <li>Эпизод IV - Новая надежда</li>
+                <li>Эпизод V - Империя наносит ответный удар</li>
+                <li>Эпизод VI - Возвращение джедая</li>
+            </ol>
+        </article>
+
+    </Main>
+    <footer>
+        <h1 class="footer" align="center">Footer</h1>
+    </footer>
+    <style>
+        *{
+          box-sizing: border-box;
+          margin: 0;  
+        }
+        header{
+            color: aliceblue;
+            background: red;
+            padding-top: 10px;
+            font-weight: 800px;
+            font-size: 25px;
+        }
+        nav{
+            color: aliceblue;
+            background: orange;
+            text-align: center;
+            padding: 10px;
+            margin-top: 10px;
+        }
+        main{
+            background: green;
+            padding: 10px;
+        }
+        article{
+            color: aliceblue;
+            background: blue;
+            margin: 10px;
+            padding: 20px 10px;
+        }
+        footer{
+            color: aliceblue;
+            background: purple;
+            padding: 10px;
+           
+            
+        }
+        ul.navbar> li{
+            display: inline-block;
+            list-style: none;
+            margin-right: 15px;
+        }
+        .article1, .article2{
+            padding: 10px 0 0 25px;
+        }
+        .footer{
+            font-size: 50px;
+            font-weight: 100;
+        }
+    </style>
+</body>
 </html>
